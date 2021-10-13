@@ -32,3 +32,7 @@ Then('I validate events have changed', () => {
 Then('I validate content of my choice is present', () => {
   homePage.verifyFreeDemoButton();
 });
+
+Then('I validate the page loads', () => {
+  // scripts are written to wait for page load
+});
