@@ -4,7 +4,7 @@ exports.config = {
     Puppeteer: {
       url: 'https://www.zwift.com',
       show: true,
-      waitForNavigation: "networkidle0",
+      waitForNavigation: [ "domcontentloaded", "networkidle0"],
       waitForTimeout: 20000,
     }
   },
