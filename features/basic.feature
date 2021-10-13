@@ -7,7 +7,7 @@ Feature: QA Automation Engineer Technical Assessment
     Given I navigate to home page
     And  I accept cookies
     #When Validate the page loads
-    #Then Validate content of your choice is present.
+    Then I validate content of my choice is present
 
 Scenario: Events Page
     Given I navigate to home page
