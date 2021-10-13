@@ -9,6 +9,7 @@ bin-release/
 node_modules/
 output/
 .output/
+.DS_store
 
 # Executables
 *.swf
