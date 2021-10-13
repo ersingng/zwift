@@ -1,7 +1,7 @@
 Feature: QA Automation Engineer Technical Assessment 
   In Stay Up to Speed
 
-  Scenario: Home Page test 
+Scenario: Home Page test 
     Given I navigate to home page
     And  I accept cookies
     When I validate the page loads
